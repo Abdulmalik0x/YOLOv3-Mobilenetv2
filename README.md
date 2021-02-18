@@ -2,12 +2,9 @@
 
 
 
-This is a MobileNet v2 training and implementation of YOLOv3. Code is written with reference to https://github.com/eriklindernoren/PyTorch-YOLOv3, with modifications/corrections made. 
+Credit to https://github.com/taynoel84/YOLOv3-Mobilenetv2
 
-Change as required:
-
-Current example uses trainList.part data list file (modified from https://pjreddie.com/media/files/coco/trainvalno5k.part, where validation dataset is discarded). Refer to https://github.com/eriklindernoren/PyTorch-YOLOv3/blob/master/data/get_coco_dataset.sh to obtain dataset. trainDatasetDirectory and trainDatasetLabelDirectory argument indicates the image and label file location respectively (MobileNet COCO test has low mAP though)
-
-![Alt text](Figure_1.png?raw=true " ")
-
-Will add more info
+- This repo includes few modifications:
+  1- # of classes as parameters.
+  2- # Inference time calculation
+  3- Eval file.
