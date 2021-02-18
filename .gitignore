@@ -1,0 +1,5 @@
+models/*
+models_result/*
+datasets_files/*
+test_img/*
+core
